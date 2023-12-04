@@ -31,15 +31,7 @@ let (|Nine|_|) dirn (input: string) =   if numberMatch dirn '9' "nine"  input th
 let rec findNumber dirn (line: string) =
     match line with
     | line when line.Length = 0 -> failwith "No number like string found"
-    | One dirn n -> n
-    | Two dirn n -> n
-    | Three dirn n -> n
-    | Four dirn n -> n
-    | Five dirn n -> n
-    | Six dirn n -> n
-    | Seven dirn n -> n
-    | Eight dirn n -> n
-    | Nine dirn n -> n
+    | One dirn n | Two dirn n | Three dirn n | Four dirn n | Five dirn n | Six dirn n | Seven dirn n | Eight dirn n | Nine dirn n -> n
     | _ -> findNumber dirn line[1..]
 
 let part1Result (line: string) =
