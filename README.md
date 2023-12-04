@@ -15,3 +15,15 @@ Part 2: Hard - repeatedly got the wrong answer, but finally wrote code that emul
 5 hours
 
 #### Execution time (excludes data read)
+
+
+## Day 2
+#### Synopsis
+
+#### Rating
+
+#### Time to complete
+
+#### Execution time (excludes data read)
+
+
